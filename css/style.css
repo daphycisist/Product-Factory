@@ -24,6 +24,8 @@ nav {
   display: flex;
   height: 120px;
   align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
 }
 
 .logo {
@@ -48,8 +50,10 @@ nav {
   border-radius: 20px;
   color: white;
   border-style: none;
-  margin-left: 80px;
+  margin-left: 60px;
   background-color: rgb(56, 56, 56);
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .nav-links li {
@@ -61,12 +65,16 @@ nav {
   color: white
 }
 
-.hero {
-  background-color: rgb(255, 255, 255);
-  height: 620px;
-  border-radius: 30px;
+.grid {
+  background-color: red;
   padding: 70px;
+  border-radius: 30px;
+}
+
+.hero {
   display: flex;
+  position: relative;
+  z-index: 1;
   justify-content: space-between;
 }
 
@@ -102,15 +110,161 @@ nav {
 }
 
 .hero button {
-  width: 60%;
+  width: 50%;
   height: 10%;
   font-size: 20px;
   font-weight: bold;
   border-radius: 10px;
   border: none;
   color: white;
-  background-color: rgba(251, 83, 83, 0.986);
+  background-color: #F46632;
+}
+
+.content{
+  /* background-color: #FAFAFA; */
+  background-color: green;
+  height: 700px;
+  z-index: -1;
+}
+
+
+.content-body{
+  height: 400px;
+  background-color: #fff;
+  /* margin-top: 300px; */
+  position: relative;
+  top: 50%;
+}
+
+.content-img{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-img> img{
+  width: 50%;
+  transform: translateY(-60%);
+}
+
+.about{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-header h1{
+  font-size: 100px;
+  color: #FAFAFA;
+}
+
+.about-header{
+  position: relative;
+  text-align: center;
+  transform: translateX(50%);
+}
+
+.about-header h3{
+  transform: translateY(-60px);
 }
 
 
 
+
+
+/* .content {
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+.content section{
+  position: relative;
+  top: 50%;
+  height: 400px;
+}
+
+.about {
+  display: flex;
+}
+
+.about img{
+  transform: translate(0%, -70%);
+  display: flex;
+}
+
+.about h1{
+  position: absolute;
+  font-size: 100px;
+  letter-spacing: 2px;
+  display: inline-block;
+
+}
+
+/* .about> img{
+  clear: both;
+} */
+
+/* .about-text {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+}
+*/
+
+
+
+
+
+
+/* .about-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty{
+  width: 50%;
+}
+
+.about-text div:last-child{
+ width: 50%;
+}
+
+.white-background {
+  height: 400px;
+  margin-top: 600px;
+  padding: 80px;
+}
+
+.up-new {
+  position: absolute;
+  transform: translateY(-200px)
+}
+
+.up-new img {
+  width: 80%;
+}
+
+.new {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new1 {
+  width: 50%
+}
+
+.new2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new2 div h2 {
+  margin-left: 160px;
+}
+
+.about-container {
+  background-color: #670;
+} */ 
