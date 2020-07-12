@@ -265,9 +265,18 @@ nav {
   line-height: 55px;
 }
 
-
 .sessions {
+  text-align: center;
   border: 1px solid black;
+  
+}
+
+.sessions-header {
+  display: inline-block;
+}
+
+.sessions h3{
+  margin-bottom: 30px;
 }
 
 
