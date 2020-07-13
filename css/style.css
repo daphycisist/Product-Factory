@@ -200,18 +200,16 @@ nav {
 
 .experience{
   text-align: center;
+  /* border: 1px solid red; */
+  height: 500px;
 }
 
 .prog-stats{
   position: relative;
   top: -200px;
   box-sizing: border-box;
-  border-radius: 1px solid red;
-}
-
-.prog-stats h1{
-  font-size: 40px;
-  text-align: center;
+  /* border-radius: 1px solid red; */
+  /* border: 1px solid red; */
 }
 
 .prog-stats h1{ 
@@ -228,7 +226,7 @@ nav {
   width: max-content;
   margin: 0 auto;
   border-radius: 10px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 } 
 
 .timeline p{
@@ -267,117 +265,146 @@ nav {
 
 .sessions {
   text-align: center;
-  border: 1px solid black;
-  
 }
 
-.sessions-header {
-  display: inline-block;
+.sessions h1{
+  font-size: 80px;
+  color: #FAFAFA;
 }
 
 .sessions h3{
-  margin-bottom: 30px;
+  font-size: 30px;
+  transform: translateY(-58px);
 }
 
-
-
-
-
-
-/* .content {
-  position: absolute;
-  height: 700px;
-  width: 100%;
-  background-color: #FAFAFA;
+.session-container {
+  text-align: left;
+  border-left: 5px solid black;
+  
+  transform: translateX(-3px);
 }
 
-.content section{
-  position: relative;
-  top: 50%;
-  height: 400px;
-}
-
-.about {
+.session-header {
+  padding: 10px 20px;
+  margin-left: 20px;
+  background: #FAFAFA;
   display: flex;
+  align-items: center;
+  border-radius: 10px;
 }
 
-.about img{
-  transform: translate(0%, -70%);
-  display: flex;
+.session-header img{
+  width: 17px;
 }
 
-.about h1{
-  position: absolute;
-  font-size: 100px;
-  letter-spacing: 2px;
-  display: inline-block;
-
+.session-overall {
+  border-left: 1px solid black;
 }
 
-/* .about> img{
-  clear: both;
-} */
 
-/* .about-text {
-  position: absolute;
-  top: 80%;
-  width: 100%;
-}
-*/
-
-
-
-
-
-
-/* .about-text{
-  display: flex;
-  justify-content: space-between;
+.session-schedule {
+  width: 25%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.empty{
-  width: 50%;
-}
-
-.about-text div:last-child{
- width: 50%;
-}
-
-.white-background {
-  height: 400px;
-  margin-top: 600px;
-  padding: 80px;
-}
-
-.up-new {
-  position: absolute;
-  transform: translateY(-200px)
-}
-
-.up-new img {
-  width: 80%;
-}
-
-.new {
-  display: flex;
-  justify-content: space-between;
-}
-
-.new1 {
-  width: 50%
-}
-
-.new2 {
-  width: 50%;
+.session-icons-hero {
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.new2 div h2 {
-  margin-left: 160px;
+.sessions h3{
+  margin-bottom: 30px;
+  transform: translateY(-58px);
 }
 
-.about-container {
-  background-color: #670;
-} */ 
+.session-speaker {
+  text-align: left;
+  margin-left: 25px;
+  padding: 50px 0;
+  display: flex;
+}
+
+
+.session-speaker-img {
+  width: 25%;
+  padding-left: 20px;
+}
+
+.session-speaker-img img{
+  width: 70px;
+}
+
+.session-speaker p{
+  width: 70%;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.double img:first-child {
+  margin-right: 10px;
+}
+
+.masters {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inner{
+  text-align: center;
+}
+
+.top-sect {
+  margin-bottom: 50px;
+}
+
+.masters .header{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.masters h1{
+  font-size: 100px;
+  color: #FAFAFA;
+}
+
+.masters h3{
+  font-size: 40px;
+  transform: translateY(-75px);
+}
+
+.inner {
+  width: 20%;
+}
+
+.inner-wrapper{
+  display: flex;
+}
+
+
+.inner img {
+  width: 150px;
+}
+
+.inner p,
+.inner h4 {
+  margin: 15px 0;
+}
+
+.inner p{
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
