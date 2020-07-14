@@ -381,9 +381,6 @@ nav {
   margin-bottom: 50px;
 }
 
-
-
-
 .masters .header{
   margin-bottom: 50px;
   text-align: center;
@@ -642,13 +639,171 @@ nav {
 }
 
 .projects{
-  padding-top: 150px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .projects h1{
   font-size: 80px;
+  color: #fafafa;
 }
 
 .projects h3{
-  font-size: 40px;
+  font-size: 30px;
+  transform: translateY(-60px);
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.projects h1, h3{
+  text-align: center;
+}
+
+.project-content p i{
+  margin-right: 10px;
+  font-size: 15px;
+  background-color:#62D18A;
+  color:  white;
+  border-radius: 50%;
+}
+
+
+.project-content .design{
+  background-color: #000;
+  color: #000;
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-content .details p{
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.project-content .details p:first-child{
+  margin-bottom: 10px;
+}
+
+.project-content .details p:nth-child(2){
+  margin-bottom: 40px;
+}
+
+.project-content .details {
+  width: 45%;
+}
+
+.project-content img{
+  width: 50%;
+}
+
+.project-content h4{
+  background-color: #F5F5F5;
+  width: fit-content;
+  padding: 15px 80px;
+  border-radius: 10px;
+}
+
+.project-content h4{
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 60px;
+}
+
+.schedule-back{
+  background-color:#FAFAFA;
+}
+
+.schedule{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.schedule-back .grid {
+  background-color: #FAFAFA;
+}
+
+.schedule h1, h3{
+  text-align: center;
+}
+
+.schedule h1{
+  font-size: 80px;
+  color: #EDEDED;
+}
+
+.schedule h3{
+  font-size: 30px;
+  transform: translateY(-60px);
+}
+
+.time-header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.time-header h4:first-child{
+  margin-right: 70px;
+}
+
+.time-header img{
+  width: 500px;
+  margin-right: 70px;
+}
+
+.schedule .date{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.schedule .date h2{
+  font-size: 33px;
+  padding: 35px 50px;
+  background-color: #fff;
+  width: 47%;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.schedule .days{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.schedule .days h3{
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.schedule .days h3:first-child{
+  background-color: #000;
+  color: #fff;
+}
+
+.schedule .days h3:last-child{
+  background-color: #EF6532;
+  color: #fff;
+  padding: 15px 70px;
+  margin-right: 0;
+  font-size: 20px;
+}
+
+footer{
+  padding: 70px 0;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-icons i{
+  margin-right: 50px;
 }
